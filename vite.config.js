@@ -9,7 +9,7 @@ export default defineConfig({
       entry: resolve(__dirname, 'src/index.js'),
       name: 'ReactDice3D',
       formats: ['es', 'cjs'],
-      fileName: (format) => `react-dice-3d.${format}.js`,
+      fileName: (format) => `react-3d-dice.${format}.js`,
     },
     rollupOptions: {
       external: ['react', 'react-dom', 'react/jsx-runtime', 'three'],

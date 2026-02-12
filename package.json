@@ -1,16 +1,16 @@
 {
-  "name": "react-dice-3d",
+  "name": "react-3d-dice",
   "version": "0.1.0",
   "description": "3D dice renderer for React using Three.js. Supports D4, D6, D8, D10, D12, D20 with face labels, settle animations, and dot pips.",
   "type": "module",
-  "main": "dist/react-dice-3d.cjs.js",
-  "module": "dist/react-dice-3d.es.js",
+  "main": "dist/react-3d-dice.cjs.js",
+  "module": "dist/react-3d-dice.es.js",
   "types": "src/index.d.ts",
   "exports": {
     ".": {
       "types": "./src/index.d.ts",
-      "import": "./dist/react-dice-3d.es.js",
-      "require": "./dist/react-dice-3d.cjs.js"
+      "import": "./dist/react-3d-dice.es.js",
+      "require": "./dist/react-3d-dice.cjs.js"
     }
   },
   "sideEffects": false,

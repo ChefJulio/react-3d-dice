@@ -1,11 +1,11 @@
-# react-dice-3d
+# react-3d-dice
 
 3D dice renderer for React using Three.js. Renders D4, D6, D8, D10, D12, and D20 with canvas-textured face labels, settle animations, and optional D6 dot pips.
 
 ## Install
 
 ```bash
-npm install react-dice-3d three
+npm install react-3d-dice three
 ```
 
 > **Peer dependencies:** `react >= 17`, `react-dom >= 17`, `three >= 0.150`
@@ -14,7 +14,7 @@ npm install react-dice-3d three
 
 ```jsx
 import { useState } from 'react';
-import Dice3D from 'react-dice-3d';
+import Dice3D from 'react-3d-dice';
 
 function App() {
   const [results, setResults] = useState([]);
@@ -81,7 +81,7 @@ Opposite faces always sum to N+1 (e.g. D6: 7, D20: 21).
 For advanced usage (custom Three.js scenes), import engine utilities:
 
 ```js
-import { buildDieMesh, settleQuat, createGeometry } from 'react-dice-3d';
+import { buildDieMesh, settleQuat, createGeometry } from 'react-3d-dice';
 
 // Build a die mesh for your own scene
 const mesh = buildDieMesh(20, 0xef4444, 'numbers');
