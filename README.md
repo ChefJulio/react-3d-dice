@@ -2,6 +2,8 @@
 
 3D dice renderer for React using Three.js. Renders D4, D6, D8, D10, D12, and D20 with canvas-textured face labels, settle animations, and optional D6 dot pips.
 
+![react-3d-dice demo](demo.gif)
+
 ## Install
 
 ```bash
