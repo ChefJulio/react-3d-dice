@@ -1,0 +1,58 @@
+{
+  "name": "react-dice-3d",
+  "version": "0.1.0",
+  "description": "3D dice renderer for React using Three.js. Supports D4, D6, D8, D10, D12, D20 with face labels, settle animations, and dot pips.",
+  "type": "module",
+  "main": "dist/react-dice-3d.cjs.js",
+  "module": "dist/react-dice-3d.es.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./dist/react-dice-3d.es.js",
+      "require": "./dist/react-dice-3d.cjs.js"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "src/index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0",
+    "three": ">=0.150.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.172.0",
+    "vite": "^6.1.0"
+  },
+  "keywords": [
+    "react",
+    "dice",
+    "3d",
+    "three.js",
+    "d20",
+    "d6",
+    "tabletop",
+    "rpg",
+    "dnd",
+    "board-game"
+  ],
+  "author": "Hunter / BosDev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChefJulio/react-dice-3d.git"
+  },
+  "homepage": "https://github.com/ChefJulio/react-dice-3d#readme"
+}
